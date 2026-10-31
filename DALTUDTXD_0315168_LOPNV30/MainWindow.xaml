@@ -12,8 +12,7 @@
             <RowDefinition Height="100"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
-       <UserControls:Menu Grid.Row="0"/>
-
+        <UserControls:Menu x:Name="menuControl" Grid.Row="0"/>
         <ContentControl x:Name="MainContentArea" Grid.Row="1" Margin="10,0,-10,0"/>
 
     </Grid>

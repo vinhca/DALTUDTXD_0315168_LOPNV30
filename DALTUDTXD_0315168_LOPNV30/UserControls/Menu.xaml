@@ -8,12 +8,46 @@
              d:DesignHeight="200" d:DesignWidth="800">
     <Grid>
         <Ribbon SelectionChanged="Ribbon_SelectionChanged">
-            <RibbonTab Header="Kết Nối">
+            <RibbonTab Header="Thông tin">
                 <RibbonGroup Header="ETABS">
-                    <RibbonButton x:Name="btn_Etabs" Label="Kết nối Etabs"
-                              Click="Btn_Etabs_Click"/>
-                    <RibbonTextBox x:Name="rtb_Model" Label="Trạng thái:"
-                               IsReadOnly="True" TextBoxWidth="140"/>
+                    <RibbonButton x:Name="btn_Etabs" 
+                                  Label="Kết nối Etabs"
+                                  Click="Btn_Etabs_Click"/>
+                    <RibbonTextBox x:Name="rtb_Model" 
+                                   Label="Trạng thái:"
+                                   IsReadOnly="True"  
+                                   TextBoxWidth="100"/>
+                </RibbonGroup>
+                <RibbonGroup Header="Vật liệu">
+                    <RibbonButton x:Name="btn_Vatlieu" 
+                                  Label="Danh mục vật liệu"
+                                  Click="Btn_Vatlieu_Click"/>
+                </RibbonGroup>
+                <RibbonGroup Header="Tải trọng">
+                    <RibbonButton x:Name="btn_Taitrong" 
+                                  Label="Danh mục tải trọng"
+                                  Click="Btn_Taitrong_Click"/>
+                </RibbonGroup>
+            </RibbonTab>
+            <RibbonTab Header="Tính Toán">
+                <RibbonGroup Header="Tính Toán">
+                    <RibbonButton x:Name="btn_tinhtoan" 
+                                  Label="Tính toán"
+                                  Click="Btn_tinhtoan_Click"/>
+                </RibbonGroup>
+            </RibbonTab>
+            <RibbonTab Header="Xuất báo cáo">
+                <RibbonGroup>
+                    <RibbonButton x:Name="btn_Excel"  
+                                  Label="Excel"  
+                                  Click="Btn_Excel_Click">
+                    </RibbonButton>
+                </RibbonGroup>
+                <RibbonGroup>
+                    <RibbonButton x:Name="btn_PDF"  
+                                  Label="PDF"   
+                                  Click="Btn_PDF_Click">
+                    </RibbonButton>
                 </RibbonGroup>
             </RibbonTab>
         </Ribbon>
