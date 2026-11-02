@@ -38,5 +38,29 @@ namespace DALTUDTXD_0315168_LOPNV30.UserControls
             if (e.OriginalSource != sender) return;
             // xử lý khi đổi tab (có thể để trống)
         }
+        private void Btn_tinhtoan_Click(object sender, RoutedEventArgs e)
+        {
+            // TODO: xử lý nút Tính toán
+        }
+
+        private void Btn_Excel_Click(object sender, RoutedEventArgs e)
+        {
+            // TODO: xuất Excel
+        }
+
+        private void Btn_PDF_Click(object sender, RoutedEventArgs e)
+        {
+            // TODO: xuất PDF
+        }
+
+        private void Btn_Vatlieu_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Btn_Taitrong_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

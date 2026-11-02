@@ -107,7 +107,8 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Assets\" />
+    <Folder Include="Assets\Icons\" />
+    <Folder Include="Assets\Images\" />
     <Folder Include="ViewModels\" />
     <Folder Include="Views\" />
   </ItemGroup>
